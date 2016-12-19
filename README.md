@@ -16,7 +16,7 @@ This repo contains html, css, and js for home and checkout pages for [Allied Bui
 
 
 
-[<img src="https://raw.githubusercontent.com/hkdeven/Be-Constructive/master/top-btn.jpg" align="right"/>][10]
+[<img src="https://raw.githubusercontent.com/hkdeven/Be-Constructive/master/top-btn.jpg" align="right"/>][3]
 
 ----------------
 
