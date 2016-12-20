@@ -120,6 +120,13 @@ body {
   text-transform: uppercase;
   color: #444 !important;
 }
+#step-1 h5,
+#step-2 h5,
+#step-3 h5 {
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  color: #444 !important;
+}
 th {
   text-align: center !important;
 }
@@ -134,11 +141,16 @@ table {
   display: inline-block;
   list-style-type: none;
 }
-
 .safe-purchase img {
   width: 100px;
 }
-
 .safe-purchase li:first-child {
-  margin-right: 0 !important;
+  margin-right: 5px !important;
+}
+
+#selected-options .panel-body {
+  padding: 0 !important;
+}
+#selected-options table {
+  margin-bottom: 0 !important;
 }
