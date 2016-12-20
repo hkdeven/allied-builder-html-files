@@ -1,0 +1,36 @@
+.wrapper {
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	background: white;
+	padding: 20px;
+	transition: 0.15s ease-in-out;
+}
+		.total{
+			text-align: right;}
+			.section p span {
+						font-weight: 700;}
+		table {
+			width: 100%;
+			text-align: left;
+			box-shadow: 0px 1px 10px rgba(black, 0.35);}
+			td, th {
+				padding: 8px;}
+			td {
+				background: #eee;}
+	.header {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;}
+		.logo {
+			font-size: 55px;}
+		.left {
+			text-align: left;}
+			.logo {
+				color: #4F86C6;}
+		.right {
+			text-align: right;}
+			h1 {
+				margin-top: 0;
+				color: #4F86C6;
+}

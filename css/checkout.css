@@ -69,12 +69,7 @@ body {
 }
 .btn-submit {
 	background: #40D66E !important;
-}
-.button-gradient {
-	height: 48px;
-	border-radius: 3px;
-	padding: 0;
-	background: linear-gradient(180deg,#6863FF,#005fe6)
+  color: #fff !important;
 }
 .react-checkout .react-input-box textarea,
 .react-checkout .react-input-box select,
@@ -113,12 +108,14 @@ body {
 }
 .next, .save, .prev {
   margin: 10px 5px;
-}
-.glyphicon {
-  color: #999 !important;
+  background: rgba(217, 237, 247, 0.8);
+  border: 1px solid rgba(0,0,0,.078) !important;
+  color: #666;
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.43);
 }
 #step-1 h4,
-#step-2 h4 {
+#step-2 h4,
+#step-3 h4 {
   font-weight: 400 !important;
   text-transform: uppercase;
   color: #444 !important;
@@ -128,4 +125,20 @@ th {
 }
 table {
   color:#333!important;
+}
+
+.safe-purchase li {
+  margin: 10px 20px;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.safe-purchase img {
+  width: 100px;
+}
+
+.safe-purchase li:first-child {
+  margin-right: 0 !important;
 }
