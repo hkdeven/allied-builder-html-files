@@ -16,30 +16,30 @@
     <body>
 
         <div class="container-fluid">
+          <div class="row">
+
+
       			<div id="da-slider" class="da-slider">
         				<div class="da-slide">
           					<h2>Slide One</h2>
           					<p>Gluten-free ugh four loko listicle knausgaard retro. Hashtag DIY nihil man braid irure. Vero nihil pop-up, culpa ut duis assumenda man braid anim jianbing. In schlitz gluten-free, sunt lumbersexual cred polaroid la croix lomo keffiyeh shabby chic.</p>
-          					<a href="#" class="da-link">Get started</a>
-          					<div class="da-img img-responsive browser-mockup"><img src="images/model-1.jpg" alt="step one" /></div>
+          					<div class="da-img browser-mockup"><img src="images/model-1.jpg" alt="step one" /></div>
         				</div>
         				<div class="da-slide">
         					  <h2>Slide Two</h2>
           					<p>Gluten-free ugh four loko listicle knausgaard retro. Hashtag DIY nihil man braid irure. Vero nihil pop-up, culpa ut duis assumenda man braid anim jianbing. In schlitz gluten-free, sunt lumbersexual cred polaroid la croix lomo keffiyeh shabby chic.</p>
-          					<a href="#" class="da-link">Get started</a>
-          					<div class="da-img img-responsive browser-mockup"><img src="images/model-2.jpg" alt="step 2" /></div>
+          					<div class="da-img browser-mockup"><img src="images/model-2.jpg" alt="step 2" /></div>
         				</div>
         				<div class="da-slide">
           					<h2>Slide Three</h2>
           					<p>Gluten-free ugh four loko listicle knausgaard retro. Hashtag DIY nihil man braid irure. Vero nihil pop-up, culpa ut duis assumenda man braid anim jianbing. In schlitz gluten-free, sunt lumbersexual cred polaroid la croix lomo keffiyeh shabby chic.</p>
-          					<a href="#" class="da-link">Get started</a>
-          					<div class="da-img img-responsive browser-mockup"><img src="images/model-3.jpg" alt="step 3" /></div>
+          					<div class="da-img browser-mockup"><img src="images/model-3.jpg" alt="step 3" /></div>
         				</div>
         				<div class="da-slide">
           					<h2>Slide Four</h2>
           					<p>Gluten-free ugh four loko listicle knausgaard retro. Hashtag DIY nihil man braid irure. Vero nihil pop-up, culpa ut duis assumenda man braid anim jianbing. In schlitz gluten-free, sunt lumbersexual cred polaroid la croix lomo keffiyeh shabby chic.</p>
-          					<a href="#" class="da-link">Get started</a>
-          					<div class="da-img img-responsive browser-mockup"><img src="images/model-1.jpg" alt="finished building" /></div>
+          					<!-- <a href="#" class="da-link">Get started</a> -->
+          					<div class="da-img finished-model"><img src="images/model-finished.jpg" alt="finished building" /></div>
         				</div>
         				<nav class="da-arrows">
           					<span class="da-arrows-prev"></span>
@@ -47,6 +47,7 @@
         				</nav>
       			</div>
         </div>
+      </div>
 
         <div class="react-home">
 
@@ -55,7 +56,7 @@
                     <div class="zipForm">
                       <form class="form-inline">
                           <div class="form-group zip-input">
-                            <input id="zip" type="text" placeholder="Enter your zip code" autofocus required
+                            <input id="zip" min="5" type="text" value = "" pattern="\d*" placeholder="Enter your zipcode" autofocus required
                                    onChange={this.changeZip.bind(this)}/>
                           </div>
                           <div class="form-group">
