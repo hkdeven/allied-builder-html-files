@@ -16,92 +16,92 @@
     </head>
     <body>
 
-        <div class="react-home react-checkout">
+        <div className="react-home react-checkout">
 
-            <div class="react-input-box">
+            <div className="react-input-box">
 
-              <div class="container-fluid"><!-- social sharing -->
-                  <div class="row well">
+              <div className="container-fluid"><!-- social sharing -->
+                  <div className="row well">
 
-              			<div class="col-md-offset-4 col-md-1 col-xs-3 text-center">
-              				<div class="icon-circle">
-              					<a href="#" class="ifacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+              			<div className="col-md-offset-4 col-md-1 col-xs-3 text-center">
+              				<div className="icon-circle">
+              					<a href="#" className="ifacebook" title="Facebook"><i className="fa fa-facebook"></i></a>
               				</div>
               			</div>
 
-              			<div class="col-md-1  col-xs-3 text-center">
-              				<div class="icon-circle">
-              					<a href="#" class="itwittter" title="Twitter"><i class="fa fa-twitter"></i></a>
+              			<div className="col-md-1  col-xs-3 text-center">
+              				<div className="icon-circle">
+              					<a href="#" className="itwittter" title="Twitter"><i className="fa fa-twitter"></i></a>
               				</div>
               			</div>
 
-              			<div class="col-md-1  col-xs-3 text-center">
-              				<div class="icon-circle">
-              					<a href="#" class="igoogle" title="Google+"><i class="fa fa-google-plus"></i></a>
+              			<div className="col-md-1  col-xs-3 text-center">
+              				<div className="icon-circle">
+              					<a href="#" className="igoogle" title="Google+"><i className="fa fa-google-plus"></i></a>
               				</div>
               			</div>
 
-              			<div class="col-md-1 col-xs-3 text-center">
-              				<div class="icon-circle">
-              					<a href="#" class="iLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+              			<div className="col-md-1 col-xs-3 text-center">
+              				<div className="icon-circle">
+              					<a href="#" className="iLinkedin" title="Linkedin"><i className="fa fa-linkedin"></i></a>
               				</div>
               			</div>
 
               	</div>
             </div>
 
-                <div class="container">
-                    <div class="row setup-content well">
+                <div className="container">
+                    <div className="row setup-content well">
 
-                      <div class="container">
-                         <div class="letter">
-                             <section class="triangle-blue">
-                                 <div class="box-blue">
+                      <div className="container">
+                         <div className="letter">
+                             <section className="triangle-blue">
+                                 <div className="box-blue">
                                  </div>
-                                 <div class="triangle"></div>
+                                 <div className="triangle"></div>
                              </section>
-                             <div class="clearfix"></div>
-                             <section class="letter-container">
-                               <div class="content-left pull-left">
-                                 <div class="wrapper">
-                                   <div class="content title">
+                             <div className="clearfix"></div>
+                             <section className="letter-container">
+                               <div className="content-left pull-left">
+                                 <div className="wrapper">
+                                   <div className="content title">
                                      <span>Receipt for</span>
                                      <span>Building</span>
                                    </div>
-                                   <div class="content amount">
-                                     <span><i class="fa fa-credit-card" aria-hidden="true"></i>Amount:</span>
+                                   <div className="content amount">
+                                     <span><i className="fa fa-credit-card" aria-hidden="true"></i>Amount:</span>
                                      <span>$20
                                      00 USD</span>
                                    </div>
-                                   <div class="content date">
-                                     <span><i class="fa fa-calendar" aria-hidden="true"></i>
+                                   <div className="content date">
+                                     <span><i className="fa fa-calendar" aria-hidden="true"></i>
                                      Date:</span>
                                      <span>Nov 5</span>
                                    </div>
-                                   <div class="content issuer">
-                                     <span><i class="fa fa-star-o" aria-hidden="true"></i>
+                                   <div className="content issuer">
+                                     <span><i className="fa fa-star-o" aria-hidden="true"></i>
                                       Issuer:</span>
                                       <span>Dribbble</span>
                                    </div>
-                                   <div class="confirmation">
-                                     <span><i class="fa fa-wpforms" aria-hidden="true"></i>
+                                   <div className="confirmation">
+                                     <span><i className="fa fa-wpforms" aria-hidden="true"></i>
                         </i>
                                       Confirmation Nr:</span>
                                       <span>OYX123580219G</span>
                                    </div>
                                  </div>
                                </div>
-                               <div class="content-right pull-right">
-                                 <div class="wrapper">
-                                   <header class="ligne">
-                                     <div class="logo pull-left">
+                               <div className="content-right pull-right">
+                                 <div className="wrapper">
+                                   <header className="ligne">
+                                     <div className="logo pull-left">
                                        <img src="http://www.achat-skis-discount.com/Files/52873/Img/20/paypal-logo.png" alt="PayPal Logo">
                                      </div>
-                                     <div class="time pull-right">
+                                     <div className="time pull-right">
                                        <span>Oct 18, &nbsp; 2015 &nbsp; 08:30:57 &nbsp; <small>PDT</small></span>
                                      </div>
                                    </header>
-                                   <section class="body">
+                                   <section className="body">
                                      <h3>Dribbble Pro Account (1year)</h3>
                                      <small>Total: &nbsp; $20.00 USD</small>
                                      <p>
@@ -127,18 +127,18 @@
                          </div>
                         </div>
 
-                        <!-- <div class='wrapper'>
-                        	<div class='header'>
-                        		<div class='left'>
+                        <!-- <div className='wrapper'>
+                        	<div className='header'>
+                        		<div className='left'>
                         			<img src="images/logo.png" width="65px" />
                         		</div>
-                        		<div class='right'>
+                        		<div className='right'>
                         			<h1>Receipt</h1>
                         			<p>Order Number: 123L356</p>
                         			<p>Date: 12/14/16</p>
                         		</div>
                         	</div>
-                        	<div class='order'>
+                        	<div className='order'>
                         		<table>
                         			<tr>
                         				<th>Desc.</th>
@@ -149,14 +149,14 @@
                         				<td>9.99</td>
                         			</tr>
                         		</table>
-                        		<div class='total'>
-                        			<div class='section'>
+                        		<div className='total'>
+                        			<div className='section'>
                         				<p><span>Subtotal:</span> $9.99</p>
                         			</div>
-                        			<div class='section'>
+                        			<div className='section'>
                         				<p><span>Tax:</span> $0.82</p>
                         			</div>
-                        			<div class='section'>
+                        			<div className='section'>
                         				<p><span>Total:</span> $10.81</p>
                         			</div>
                         		</div>
@@ -167,36 +167,36 @@
             </div><!-- end react-input-box -->
 
             <footer>
-                <div class="react-footer-navigation clearfix">
+                <div className="react-footer-navigation clearfix">
 
-                        <div class="col-md-3 col-sm-2 text-right col-xs-2">
+                        <div className="col-md-3 col-sm-2 text-right col-xs-2">
                             <img src="images/logo.png" alt="logo"/>
                         </div>
 
-                        <div class="col-md-2 col-sm-5 col-xs-5">
+                        <div className="col-md-2 col-sm-5 col-xs-5">
                             <ul>
-                                <li class="title">LEARN MORE</li>
+                                <li className="title">LEARN MORE</li>
                                 <li><a href="http://alliedcares.com/" target="_blank">Allied Cares</a></li>
                             </ul>
                         </div>
 
-                        <div class="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-2 col-xs-5 col-xs-offset-2">
+                        <div className="col-md-2 col-md-offset-0 col-sm-5 col-sm-offset-2 col-xs-5 col-xs-offset-2">
                             <ul>
-                                <li class="title">HELP</li>
+                                <li className="title">HELP</li>
                                 <li><a href="#">FAQ</a></li>
                             </ul>
                         </div>
 
-                        <div class="col-md-2 col-sm-5 col-xs-5">
+                        <div className="col-md-2 col-sm-5 col-xs-5">
                             <ul>
-                                <li class="title">CONNECT</li>
+                                <li className="title">CONNECT</li>
                                 <li><a href="http://www.alliedbuildings.com/contact-us/" target="_blank">Contact Us</a></li>
                             </ul>
                         </div>
 
                     </div>
 
-                <div class="text-center copyright clearfix">Copyright 2016 Allied Steel Buildings. All rights reserved.</div>
+                <div className="text-center copyright clearfix">Copyright 2016 Allied Steel Buildings. All rights reserved.</div>
 
             </footer>
 

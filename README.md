@@ -6,13 +6,13 @@ This repo contains html, css, and js for home and checkout pages for [Allied Bui
 
 ## Home Screen
 
-<img src="https://raw.githubusercontent.com/hkdeven/allied-builder-html-files/master/images/builder-home-screen.png?token=AL0EqbZ7Ky0rTQs-kyZrcIiicTHWSnyUks5YYUd5wA%3D%3D" />
+<img src="https://raw.githubusercontent.com/hkdeven/allied-builder-html-files/master/images/builder-home-screen.png?token=AL0Eqbnkkb7PoKCUzMqzSRXHfFE_jYNeks5YbYHTwA%3D%3D" />
 
 ----------------
 
 ## Checkout Pages
 
-<img src="https://raw.githubusercontent.com/hkdeven/allied-builder-html-files/master/images/builder-checkout-screen.png?token=AL0EqTmIKk1clia1ebrv30t8PtwB3Ff2ks5YYUdPwA%3D%3D" />
+<img src="https://raw.githubusercontent.com/hkdeven/allied-builder-html-files/master/images/builder-checkout-screen.png?token=AL0EqQDGLKvRwJOevNwuuMeieUaMjSwPks5YbYHlwA%3D%3D" />
 
 
 ----------------

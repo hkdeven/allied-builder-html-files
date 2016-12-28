@@ -49,122 +49,136 @@
 
                         <div class="row setup-content well" id="step-1">
 
-                          <div class="row">
+                            <div class="row">
 
-                            <div class="col-md-3 text-center"><!-- details panel -->
-                                <div class="panel panel-info">
-                                    <div class="panel-heading">Review Building Details</div>
-                                        <div class="panel-body">
-                                            <div class="table-responsive project-list">
-                                                <table class="table table-striped"><tbody  style="background:#fff!important;outline:none!important;border:none!important;"><tr style="background:#fff!important;outline:none!important;border:none!important;">
-                                                    <td style="background:#fff!important;outline:none!important;border:none!important;">TOTAL</td>
-                                                        <td style="background:#fff!important;outline:none!important;border:none!important;"><strong>$11,200.00</strong></td>
-                                                </tr>
-                                                <tr style="background:#fff!important;">
-                                                    <td>DEPOSIT</td>
-                                                        <td style="color:green!important;background:#fff!important;"><strong>$1,120.00</strong></td>
-                                                </tr></tbody></table>
+                                <div class="col-md-3 text-center"><!-- details panel -->
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">Review Building Details</div>
+                                            <div class="panel-body">
+                                                <div class="table-responsive project-list">
+                                                    <table class="table table-striped"><tbody  style="background:#fff!important;outline:none!important;border:none!important;"><tr style="background:#fff!important;outline:none!important;border:none!important;">
+                                                        <td style="background:#fff!important;outline:none!important;border:none!important;">TOTAL</td>
+                                                            <td style="background:#fff!important;outline:none!important;border:none!important;"><strong>$11,200.00</strong></td>
+                                                    </tr>
+                                                    <tr style="background:#fff!important;">
+                                                        <td>DEPOSIT</td>
+                                                            <td style="color:green!important;background:#fff!important;"><strong>$1,120.00</strong></td>
+                                                    </tr></tbody></table>
+                                                </div>
                                             </div>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item list-group-item-info">
+                                                        <div class="table-responsive"><table class="table"><thead><tr>
+                                                            <td>width</td>
+                                                            <td>length</td>
+                                                            <td>height</td>
+                                                        </tr></thead><tbody>
+                                                        <tr>
+                                                            <td>40'</td>
+                                                            <td>40'</td>
+                                                            <td>15'</td>
+                                                        </tr></tbody></table></div>
+                                                    </li>
+                                                    <li class="list-group-item">Square footage <span class="badge">1600</span></li>
+                                                    <li class="list-group-item">Pitch <span class="badge">1:12</span></li>
+                                                </ul>
+                                    </div>
+                                </div><!-- end details panel -->
+
+                                <div class="col-md-3 text-center"><!-- building standards panel -->
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">Building Standards</div>
+                                        <div class="panel-body text-left">
+                                          <ul>
+                                            <li>Engineered structural blueprints</li>
+                                            <li>local structural buildings codes</li>
+                                            <li>Bolt together construction</li>
+                                            <li>Galvanized secondary</li>
+                                            <li>Life timewarranty onfasteners</li>
+                                            <li>20 year panel paint warranty</li>
+                                            <li>Dedicated project management</li>
+                                        </ul>
                                         </div>
-                                            <ul class="list-group">
-                                                <li class="list-group-item list-group-item-info">
-                                                    <div class="table-responsive"><table class="table"><thead><tr>
-                                                        <td>width</td>
-                                                        <td>length</td>
-                                                        <td>height</td>
-                                                    </tr></thead><tbody>
-                                                    <tr>
-                                                        <td>40'</td>
-                                                        <td>40'</td>
-                                                        <td>15'</td>
-                                                    </tr></tbody></table></div>
-                                                </li>
-                                                <li class="list-group-item">Square footage <span class="badge">1600</span></li>
-                                                <li class="list-group-item">Pitch <span class="badge">1:12</span></li>
-                                            </ul>
-                                </div>
-                            </div><!-- end details panel -->
+                                    </div>
+                                </div><!-- end building standards panel -->
 
-                            <div class="col-md-3 text-center"><!-- building standards panel -->
-                                <div class="panel panel-info">
-                                    <div class="panel-heading">Building Standards</div>
-                                    <div class="panel-body text-left"><ul>
-                                        <li>Engineered structural blueprintslocal structural buildings codes</li><li>Bolt together construction</li><li>Galvanized secondary</li><li>Life timewarranty onfasteners 20 year panel paint warranty</li><li>Dedicated project management</li>
-                                    </ul></div>
-                                </div>
-                            </div><!-- end building standards panel -->
+                                <div class="col-md-6"><!-- building details section -->
 
-                            <div class="col-md-6">
-                                <h4>Building Details</h4>
-                            </div>
+                                    <div class="col-md-12"><h4>Building Details</h4></div>
 
-                            <div class="col-md-3"><!-- step 1, column 1 -->
+                                    <div class="col-md-6">
+                                        <div class="section form-group">
+                                            <label for="timeframe" class="field-label control-label">Business type *</label>
+                                            <label class="field select">
+                                               <select name="industry" tabindex="9" required="required">
+                                                  <option value="" selected="selected">- select -</option>
+                                                  <option value="Agricultural">Agricultural</option>
+                                                  <option value="Aviation">Aviation</option>
+                                                  <option value="Commercial">Commercial</option>
+                                                  <option value="Equestrian">Equestrian</option>
+                                                  <option value="Government/Military">Government/Military</option>
+                                                  <option value="Industrial">Industrial</option>
+                                                  <option value="Institutional/Church">Institutional/Church</option>
+                                                  <option value="Manufacturing">Manufacturing</option>
+                                                  <option value="Marina/Boat">Marina/Boat</option>
+                                                  <option value="Mining">Mining</option>
+                                                  <option value="Recreational">Recreational</option>
+                                                  <option value="Residential">Residential</option>
+                                                  <option value="Storage">Storage</option>
+                                                  <option value="Workshop">Workshop</option>
+                                                  <option value="Other">Other</option>
+                                               </select>
+                                            </label>
+                                        </div>
+                                    </div>
 
-                                          <div class="section form-group">
-                                              <label for="timeframe" class="field-label control-label">Business type *</label>
-                                              <label class="field select">
-                                                 <select name="Industry" tabindex="9" required="required">
+                                    <div class="col-md-6">
+                                        <div class="section form-group">
+                                            <label class="field-label control-label">Timeframe *</label>
+                                            <label class="field select">
+                                                <select name="LEADCF6" class="field-label control-label" required="required">
                                                     <option value="" selected="selected">- select -</option>
-                                                    <option value="Agricultural">Agricultural</option>
-                                                    <option value="Aviation">Aviation</option>
-                                                    <option value="Commercial">Commercial</option>
-                                                    <option value="Equestrian">Equestrian</option>
-                                                    <option value="Government/Military">Government/Military</option>
-                                                    <option value="Industrial">Industrial</option>
-                                                    <option value="Institutional/Church">Institutional/Church</option>
-                                                    <option value="Manufacturing">Manufacturing</option>
-                                                    <option value="Marina/Boat">Marina/Boat</option>
-                                                    <option value="Mining">Mining</option>
-                                                    <option value="Recreational">Recreational</option>
-                                                    <option value="Residential">Residential</option>
-                                                    <option value="Storage">Storage</option>
-                                                    <option value="Workshop">Workshop</option>
-                                                    <option value="Other">Other</option>
-                                                 </select>
-                                              </label>
-                                          </div>
+                                                    <option value="ASAP">ASAP</option>
+                                                    <option value="1-3 Months">1-3 Months</option>
+                                                    <option value="3-6 Months">3-6 Months</option>
+                                                    <option value="6-12 Months">6-12 Months</option>
+                                                    <option value="12+ Months">12+ Months</option>
+                                                </select>
+                                            </label>
+                                        </div>
+                                    </div>
 
-                                          <div class="section form-group">
-                                              <label class="field-label control-label">Company</label>
-                                              <input type="text" class="form-control" placeholder="Company" />
-                                          </div>
+                                    <div class="col-md-6">
+                                        <div class="section form-group">
+                                            <label class="field-label control-label">Company</label>
+                                            <input type="text" class="form-control" placeholder="Company" />
+                                        </div>
+                                    </div>
 
-                                          <div class="section form-group">
-                                              <label class="control-label">First Name *</label>
-                                              <input type="text" class="form-control" placeholder="Enter First Name" required="required" />
-                                          </div>
+                                    <div class="col-md-6">
+                                        <div class="section form-group">
+                                            <label class="field-label control-label">Zipcode *</label>
+                                            <input min="5" type="text" class="form-control" placeholder="12345" required="required" />
+                                        </div>
+                                    </div>
 
-                                      </div><!-- end step 1, column 1 -->
+                                    <div class="col-md-6">
+                                        <div class="section form-group">
+                                            <label class="control-label">First Name *</label>
+                                            <input type="text" class="form-control" placeholder="Enter First Name" required="required" />
+                                        </div>
+                                    </div>
 
-                            <div class="col-md-3"><!-- step 1, column 2 -->
+                                    <div class="col-md-6">
+                                        <div class="section form-group">
+                                            <label class="field-label control-label">Last Name *</label>
+                                            <input type="text" class="form-control" placeholder="Enter Last Name" required="required" />
+                                        </div>
+                                    </div>
 
-                                          <div class="section form-group">
-                                              <label class="field-label control-label">Time frame *</label>
-                                              <label class="field select">
-                                                  <select name="LEADCF6" class="field-label control-label" required="required">
-                                                      <option value="" selected="selected">- select -</option>
-                                                      <option value="ASAP">ASAP</option>
-                                                      <option value="1-3 Months">1-3 Months</option>
-                                                      <option value="3-6 Months">3-6 Months</option>
-                                                      <option value="6-12 Months">6-12 Months</option>
-                                                      <option value="12+ Months">12+ Months</option>
-                                                  </select>
-                                              </label>
-                                          </div>
+                                </div><!-- end building details section -->
 
-                                          <div class="section form-group">
-                                              <label class="field-label control-label">Zipcode *</label>
-                                              <input type="number" class="form-control" placeholder="12345" required="required" />
-                                          </div>
-
-                                          <div class="section form-group">
-                                              <label class="field-label control-label">Last Name *</label>
-                                              <input type="text" class="form-control" placeholder="Enter Last Name" required="required" />
-                                          </div>
-
-                                      </div><!-- end step 1, column 2 -->
-
-                          </div>
+                            </div>
 
                           <button class="pull-right btn nextBtn next" aria-label="Right Align" type="button">Next
                               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
@@ -215,10 +229,9 @@
                                     <div class="panel-heading text-center">Selected Options</div>
                                     <div class="panel-body list">
                                         <div class="table-responsive project-list">
-                                            <table class="table text-success table-striped">
+                                            <table class="table table-striped">
                                                 <tbody>
                                                 <tr>
-                                                    <td><input type="checkbox" class="i-checks" checked disabled></td>
                                                     <td><strong>Openings</strong><br/>
                                                         <small>1 Door</small><br/>
                                                         <small>1 Window</small>
@@ -226,7 +239,6 @@
                                                     <td>$30.00</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><input type="checkbox" class="i-checks" checked disabled></td>
                                                     <td><strong>Lean-tos</strong><br/>
                                                         <small>40' X 15'</small><br/>
                                                         <small>20' X 15'</small>
@@ -234,7 +246,6 @@
                                                     <td>$0.00</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><input type="checkbox" class="i-checks" checked disabled></td>
                                                     <td><strong>Gutters/Downspouts</strong>
                                                     </td>
                                                     <td>$0.00</td>
@@ -250,52 +261,48 @@
 
                               <div class="col-md-12"><h4>Your Information</h4></div>
 
-                              <div class="col-md-6"><!-- column 1 -->
-
+                              <div class="col-md-6">
                                   <div class="section form-group">
                                       <label class="field-label control-label">Email *</label>
                                       <input type="email" class="form-control" placeholder="your@email.com" required="required" />
                                   </div>
+                              </div>
 
-                              </div><!-- column 1 -->
-
-                              <div class="col-md-6"><!-- column 2 -->
-
-                                  <div class="section">
+                              <div class="col-md-6">
+                                  <div class="section form-group">
                                       <label class="field-label control-label">Phone *</label>
-                                      <input type="number" class="form-control" placeholder="(•••) ••• ••••" required="required"  />
+                                      <input type="number" name="phone" class="form-control" placeholder="(•••) ••• ••••" required="required"  />
                                   </div>
-
-                              </div><!-- column 2 -->
+                              </div>
 
                               <div class="col-md-12"><h4>Delivery Address</h4></div>
 
-                              <div class="col-md-6"><!-- column 1 -->
-
+                              <div class="col-md-6">
                                   <div class="section form-group">
                                       <label class="field-label control-label">Street Address *</label>
                                       <input type="text" class="form-control" placeholder="Enter Street Address" required="required" />
                                   </div>
+                              </div>
 
+                              <div class="col-md-6">
                                   <div class="section form-group">
                                       <label class="field-label control-label">Suite</label>
                                       <input type="text" class="form-control" placeholder="Street Address Continued" />
                                   </div>
-
                               </div>
 
-                              <div class="col-md-6"><!-- column 2 -->
-
+                              <div class="col-md-6">
                                   <div class="section form-group">
                                       <label class="field-label control-label">City *</label>
                                       <input type="text" class="form-control" placeholder="Enter City" required="required" />
                                   </div>
+                              </div>
 
+                              <div class="col-md-6">
                                   <div class="section form-group">
-                                      <label class="field-label control-label">Country *</label>
-                                      <input type="text" class="form-control" placeholder="Enter Country" required="required" />
+                                      <label class="field-label control-label">Country</label>
+                                      <input type="text" class="form-control" placeholder="Enter Country" />
                                   </div>
-
                               </div>
 
                             </div>
@@ -355,10 +362,9 @@
                                           <div class="panel-heading text-center">Selected Options</div>
                                           <div class="panel-body list">
                                               <div class="table-responsive project-list">
-                                                  <table class="table text-success table-striped">
+                                                  <table class="table table-striped">
                                                       <tbody>
                                                       <tr>
-                                                          <td><input type="checkbox" class="i-checks" checked disabled></td>
                                                           <td><strong>Openings</strong><br/>
                                                               <small>1 Door</small><br/>
                                                               <small>1 Window</small>
@@ -366,7 +372,6 @@
                                                           <td>$30.00</td>
                                                       </tr>
                                                       <tr>
-                                                          <td><input type="checkbox" class="i-checks" checked disabled></td>
                                                           <td><strong>Lean-tos</strong><br/>
                                                               <small>40' X 15'</small><br/>
                                                               <small>20' X 15'</small>
@@ -374,7 +379,6 @@
                                                           <td>$0.00</td>
                                                       </tr>
                                                       <tr>
-                                                          <td><input type="checkbox" class="i-checks" checked disabled></td>
                                                           <td><strong>Gutters/Downspouts</strong>
                                                           </td>
                                                           <td>$0.00</td>
@@ -390,7 +394,13 @@
                                     <div class="panel panel-info">
                                         <div class="panel-heading">Building Standards</div>
                                         <div class="panel-body text-left"><ul>
-                                            <li>Engineered structural blueprintslocal structural buildings codes</li><li>Bolt together construction</li><li>Galvanized secondary</li><li>Life timewarranty onfasteners 20 year panel paint warranty</li><li>Dedicated project management</li>
+                                            <li>Engineered structural blueprints</li>
+                                            <li>local structural buildings codes</li>
+                                            <li>Bolt together construction</li>
+                                            <li>Galvanized secondary</li>
+                                            <li>Life timewarranty onfasteners</li>
+                                            <li>20 year panel paint warranty</li>
+                                            <li>Dedicated project management</li>
                                         </ul></div>
                                     </div>
                                   </div>
@@ -469,9 +479,17 @@
 
                                       <div class="section form-group">
                                           <label class="field-label control-label">Zipcode *</label>
-                                          <input type="number" class="form-control" placeholder="12345" required="required" />
+                                          <input type="text" class="form-control" placeholder="12345" required="required" />
                                       </div>
 
+                                  </div>
+
+                                  <div class="col-md-12">
+                                    <div class="panel panel-success">
+                                      <div  id="no-obligation-panel" class="panel-body text-center">
+                                        <i>No obligation cancellation policy!</i>  <span class="glyphicon glyphicon-hand-left"></span>
+                                      </div>
+                                    </div>
                                   </div>
 
                               </div>
@@ -569,7 +587,7 @@
         var curStep = $(this).closest(".setup-content"),
             curStepBtn = curStep.attr("id"),
             nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
-            curInputs = curStep.find("input[type='text'],input[type='url']"),
+            curInputs = curStep.find("input[type='text'],input[type='email'],input[type='number'],select"),
             isValid = true;
 
         $(".form-group").removeClass("has-error");
