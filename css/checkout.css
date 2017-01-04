@@ -165,3 +165,9 @@ table {
 #selected-options table {
   margin-bottom: 0;
 }
+#building-details .list-group-item {
+  padding:5px 15px !important;
+}
+#building-details .panel-body {
+  padding:5px 0 0 0 !important;
+}
